@@ -1,6 +1,6 @@
 {
     "name": "dekuan/defileup",
-    "description": "lib for dekuan file upload and download",
+    "description": "lib for file upload and download by DeKuan, Inc.",
     "type": "library",
     "authors": [
         {
