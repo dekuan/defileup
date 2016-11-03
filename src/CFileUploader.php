@@ -178,7 +178,7 @@ class CFileUploader extends CUploadedFileFieldName
 	{
 		//	...
 		$bRet		= false;
-		$ArrImageExt	= explode( '|', CConst::CONST_UPLOAD_IMAGE_EXT );
+		$ArrImageExt	= $this->m_ArrAllowFileExt;
 		$sFileExt	= $this->getExt();
 		if ( ! empty( $sFileExt ) )
 		{
